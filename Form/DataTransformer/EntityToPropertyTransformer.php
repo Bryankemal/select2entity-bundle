@@ -22,7 +22,7 @@ class EntityToPropertyTransformer implements DataTransformerInterface
     /** @var  string */
     protected string $className;
     /** @var  string */
-    protected string $textProperty;
+    protected ?string $textProperty;
     /** @var  string */
     protected string $primaryKey;
     /** @var string */
